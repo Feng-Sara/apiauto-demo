@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: POST http://localhost:11011/api/v1/users | headers={'Content-Type': 'application/json', 'Authorization': 'Bearer d27e9a31-dc15-4325-84dc-008049e9a9a9'} | body={'username': 'newuser', 'password': 'newpass123', 'email': 'newuser@demo.com'}
+[32mINFO    [0m test_api:test_api.py:204 响应: status=200 | body={"code": 200, "data": {"email": "newuser@demo.com", "id": "5ba9dd38-5dfb-492b-aa7f-a5289f0cfd56", "username": "newuser"}, "msg": "success"}

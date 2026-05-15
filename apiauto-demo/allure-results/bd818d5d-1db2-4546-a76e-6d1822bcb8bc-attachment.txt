@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: POST http://localhost:11011/auth/login | headers={'Content-Type': 'application/json'} | body={'username': 'admin', 'password': ''}
+[32mINFO    [0m test_api:test_api.py:204 响应: status=400 | body={"code": 400, "data": null, "msg": "用户名和密码必填"}

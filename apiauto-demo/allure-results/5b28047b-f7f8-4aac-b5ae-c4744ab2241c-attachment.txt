@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: POST http://localhost:11011/auth/login | headers={'Content-Type': 'application/json'} | body={'username': 'test', 'password': 'test123'}
+[32mINFO    [0m test_api:test_api.py:204 响应: status=200 | body={"code": 200, "data": {"token": "b55cb595-efd5-4155-87a3-d444aafb6a02", "userId": "2"}, "msg": "success"}

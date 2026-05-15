@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: POST http://localhost:11011/auth/login | headers={'Content-Type': 'application/json'} | body={'username': 'nonexistent', 'password': 'password123'}
+[32mINFO    [0m test_api:test_api.py:204 响应: status=401 | body={"code": 401, "data": null, "msg": "用户名或密码错误"}

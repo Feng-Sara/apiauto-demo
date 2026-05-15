@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: POST http://localhost:11011/api/v1/users | headers={'Content-Type': 'application/json', 'Authorization': 'Bearer d27e9a31-dc15-4325-84dc-008049e9a9a9'} | body={'username': 'admin', 'password': 'newpass123'}
+[32mINFO    [0m test_api:test_api.py:204 响应: status=400 | body={"code": 400, "data": null, "msg": "用户名已存在"}

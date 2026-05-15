@@ -1,0 +1,2 @@
+[32mINFO    [0m test_api:test_api.py:188 请求: DELETE http://localhost:11011/api/v1/users/1 | headers={'Content-Type': 'application/json'} | body=(无)
+[32mINFO    [0m test_api:test_api.py:204 响应: status=401 | body={"code": 401, "data": null, "msg": "未授权"}
