@@ -1,0 +1,12 @@
+base_url: ${BASE_URL}
+
+dependencies:
+  user_login:
+    url: ${BASE_URL}/auth/login
+    method: POST
+    body:
+      username: ${TEST_USER}
+      password: ${TEST_PASS}
+    extract:
+      token: $.data.token
+      userId: $.data.userId
